@@ -56,11 +56,6 @@ const Home = () => {
     useEffect(()=>{
        document.querySelector(".photo").classList.add("animation")
     });
-    useEffect(() => {
-        return () => {
-            document.querySelector(".photo").classList.remove("animation")
-        };
-    });
     return (
         <HomeWrapper>
             <ImageWrapper className="photo" image={image}/>
