@@ -1,0 +1,18 @@
+{
+    "clothing": [
+      {
+        "id": "90026",
+        "type": "tShirt",
+        "photo": "/item1",
+        "name": "stoic t-shirt",
+        "price": "25",
+        "sizes": {
+          "S": "10",
+          "M": "25",
+          "L": "14",
+          "XL": "42",
+          "XXL": "2"
+        }
+      }
+    ]
+  }

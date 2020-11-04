@@ -19,7 +19,7 @@ const FooterWrapper = styled.footer`
 const Footer = () =>{
   return(
       <FooterWrapper>
-          <span>Bulit by Bartłomiej Stolarski</span>
+          <span>Built by Bartłomiej Stolarski</span>
       </FooterWrapper>
   )
 };

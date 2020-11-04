@@ -63,10 +63,9 @@ const HeaderList = styled.ul`
 
 const HeaderListItem = styled.ul`
   list-style: none;
-  padding: 5px 5px;
+  padding: 5px 20px;
   transition: .1s;
   cursor: pointer;
- 
 `;
 
 const HeaderLink = styled(Link)`
@@ -82,6 +81,7 @@ const HeaderLink = styled(Link)`
     transition: .2s;
     &:hover{
       color: darkred;
+      border-bottom: 2px solid black;
     }
 
 `;

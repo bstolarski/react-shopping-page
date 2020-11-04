@@ -4,8 +4,7 @@ import Header from "./compontents/Header";
 import GlobalStyles from "./style/globalStyles";
 import Home from "./compontents/Home";
 // import About from "./compontents/About";
-// import Shirts from "./compontents/Shirts";
-// import Hoodies from "./compontents/Hoodies";
+import Clothing from "./compontents/Clothing";
 // import Cart from "./compontents/Cart";
 import styled from "styled-components";
 import {Provider} from 'react-redux'
@@ -31,9 +30,9 @@ function App() {
                                 <Route exact path='/'>
                                     <Home/>
                                 </Route>
-                                {/* <Route path='/about'>
-                                    <About/>
-                                </Route> */}
+                                <Route path='/clothing'>
+                                    <Clothing/>
+                                </Route>
                             </Switch>
                             <GlobalStyles/>
                         </>

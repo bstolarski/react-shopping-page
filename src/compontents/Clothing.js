@@ -1,5 +1,5 @@
 import React from "react";
-import data from "../data/clothes"
+import data from "../data/data.json"
 import Product from "./Product";
 import styled from "styled-components";
 
@@ -15,13 +15,13 @@ const ClothingWrapper = styled.div`
   }
 `;
 
-const Clothing  = (props) => {
+const Clothing  = () => {
     return (
         <ClothingWrapper className='home'>
             {
                 data.clothing.map((value, index) => {
-                    let image = require(`../assets/images${value.photo}`);
-                    let hoverImage = require(`../assets/images/h1back.png`);
+                    let image = require(`../assets${value.photo}.jpg`);
+                    let hoverImage = require(`../assets${value.photo}back.jpg`);
                     return (
                         <>
                             <Product img={image}
